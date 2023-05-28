@@ -1,4 +1,4 @@
-import Logo from '../Assets/AccessAI_logo.svg'
+import Logo from '../Assets/RelAI_logo.png'
 import React from "react";
 export default function Hero(){
       const [showModal, setShowModal] = React.useState(false);

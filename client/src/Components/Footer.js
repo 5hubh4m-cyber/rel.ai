@@ -11,7 +11,7 @@ const Footer = () => {
       color: 'gray',
       textAlign: 'center',
     }}>
-      <p>Inspired by Aleem Rehmtulla. Implemented by Edison Qu</p>
+      <p>RelAI</p>
     </div>
   );
 };

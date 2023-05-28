@@ -21,10 +21,13 @@ for pair in key_value_pairs:
 # Call Cohere
 
 # print(f"cohere api key: {os.getenv('COHERE_API_KEY')}")
+my_prompt ='Explain quantum computing as if i\'m 5 years old. in 20 words'
+my_prompt ='Whats capital of Bengaluru?'
+
 co = cohere.Client(os.getenv('COHERE_API_KEY'))
 response = co.generate(
   model='command-medium-nightly',
-  prompt='how are you? explain quantum computing as if i\'m 5 years old. in 100 words',
+  prompt=my_prompt,
   max_tokens=300,
   temperature=0.9,
   k=0,
@@ -35,7 +38,8 @@ response = co.generate(
   return_likelihoods='NONE')
 
 prediction_text = response.generations[0].text
-print('Prediction: {}'.format(response.generations[0].text))
+response = f"Q. {my_prompt}\n Ans:{prediction_text}"
+print('Prediction: {}'.format(response))
 
 contact_number = '+919955262206'
-twilio_add_user.send_message_to_mobile(contact_number, prediction_text)
+twilio_add_user.send_message_to_mobile(contact_number, response)

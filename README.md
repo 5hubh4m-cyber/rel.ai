@@ -19,8 +19,3 @@ When a user sends a text message to the app's phone number, Twilio routes the me
 Once the message has been directed to the appropriate API or service, the body of the message is passed to Co:here, an advanced natural language processing platform. Using machine learning algorithms, Co:here processes the message and generates a response, which is then sent back to the user via Twilio.
 
 This innovative approach to SMS messaging leverages the latest in AI technology to provide users with fast, accurate, and personalized responses, all without the need for a stable internet connection. Whether a user is in a remote rural area or in a city with limited access to the internet, your app provides a valuable and convenient means of communication and information access.
-
-
-
-ToCountry=CA&ToState=QQ&SmsMessageSid=SMM9b5d9098e0d8846e7a239e4a1cd8f785&NumMedia=0&ToCity=THEFTORD&MessageStatus=ON&FromCity=CA&ToZip=&FromState=ON&From=+13149474018&ToZip=&NumSegments=1&MessageSid=SMM9b5d9098e0d8846e7a239e4a1cd8f785&AccountSid=ACbae95b1c54598d164d57372fd8c901dd&From=+13149474018&ApiVersion=2010-04-01
-1

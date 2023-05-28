@@ -84,5 +84,5 @@ def lambda_handler(event, context):
     #     'body': response
     # }
 
-# event = {"body": "UXVhbnR1bSBjb21wdXRpbmc6IFN1cGVyIHBvd2VyZnVsIGNvbXB1dGVyIHRoYXQgc29sdmVzIHByb2JsZW1zIHJlYWxseSBmYXN0Lg=="}
-# lambda_handler(event, "context")
+event = {"body": "UXVhbnR1bSBjb21wdXRpbmc6IFN1cGVyIHBvd2VyZnVsIGNvbXB1dGVyIHRoYXQgc29sdmVzIHByb2JsZW1zIHJlYWxseSBmYXN0Lg=="}
+lambda_handler(event, "context")

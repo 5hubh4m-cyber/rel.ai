@@ -26,7 +26,8 @@ def lambda_handler(event, context):
                             'text': body,
                             'grid_size': 1
                         },
-                        headers={'api-key': 'quickstart-QUdJIGlzIGNvbWluZy4uLi4K'}
+                        headers={
+                            'api-key': 'quickstart-QUdJIGlzIGNvbWluZy4uLi4K'}
                     )
                     image_url = r.json()['output_url']
                     response = f"<Response><Message><Media>{image_url}</Media></Message></Response>"
@@ -47,9 +48,7 @@ def lambda_handler(event, context):
                         'body': response
                     }
 
-
             else:
-
                 co = cohere.Client(os.getenv("COHERE_API_KEY"))
                 response_from_cohere = co.generate(
                     model='command-medium-nightly',

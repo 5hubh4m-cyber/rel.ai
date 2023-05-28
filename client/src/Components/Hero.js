@@ -13,7 +13,7 @@ export default function Hero(){
       <nav className="flex items-center justify-between" aria-label="Global">
         <div className="flex lg:flex-1">
           <a href="#" className="-m-1.5 p-1.5">
-            <span className="sr-only">AccessAI</span>
+            <span className="sr-only">RelAI</span>
             <img
               className="h-16"
               src={Logo}
@@ -101,7 +101,7 @@ export default function Hero(){
           </div>
           <div className="text-center">
             <h1 className="text-4xl font-bold tracking-tight text-gray-900 sm:text-6xl">
-              Access<span className={"text-green-600"}>AI</span> without Wifi
+              Rel<span className={"text-green-600"}>AI</span> without Internet
             </h1>
             <p className="mt-6 text-lg leading-8 text-gray-600">
           Access to AI models through your phone, anywhere you go.
@@ -133,7 +133,7 @@ export default function Hero(){
                                 {/*header*/}
                                 <div className="flex items-start justify-between p-5 border-b border-solid border-slate-200 rounded-t">
                                     <h3 className="text-2xl font-semibold flex justify-center item-center">
-                                        AccessAI Terms of Service
+                                        RelAI Terms of Service
 
 
                                     </h3>
@@ -150,26 +150,26 @@ export default function Hero(){
                                 <div className="relative p-6">
 
                                     <p className="my-4 text-slate-500 text-sm flex justify-center flex-col items-center">
-                                      {/*<span className={"font-bold text-xl text-black flex justify-center items-center"}>Welcome to AccessAI, a cutting-edge SMS messaging app powered by artificial intelligence. </span>*/}
+                                      {/*<span className={"font-bold text-xl text-black flex justify-center items-center"}>Welcome to RelAI, a cutting-edge SMS messaging app powered by artificial intelligence. </span>*/}
                                       <div><span className={"text-xl"}>By using our app, you agree to be bound by the following terms and conditions (the "Terms"). If you do not agree to these Terms, please do not use our app.</span></div>
 <br/>
-                                      <div className={"flex justify-start"}><span className={'font-bold text-black  '}>Use of AccessAI</span></div>
-AccessAI grants you a limited, non-exclusive, non-transferable license to use our app for personal, non-commercial purposes in accordance with these Terms. You may not use our app for any illegal or unauthorized purpose.
+                                      <div className={"flex justify-start"}><span className={'font-bold text-black  '}>Use of RelAI</span></div>
+RelAI grants you a limited, non-exclusive, non-transferable license to use our app for personal, non-commercial purposes in accordance with these Terms. You may not use our app for any illegal or unauthorized purpose.
 
 
                                                                             <span className={'font-bold text-black '}>Third Party Services</span>
-                                      <div>AccessAI uses third-party services, such as <span className={"text-red-700 font-bold text-lg"}>Twilio</span>, <span className={"text-gray-700 font-bold text-lg"}>Co:here</span>, and OpenAI, to provide certain features and functionality of our app. By using these services, you agree to be bound by the terms and conditions of these third-party services.</div>
+                                      <div>RelAI uses third-party services, such as <span className={"text-red-700 font-bold text-lg"}>Twilio</span>, <span className={"text-gray-700 font-bold text-lg"}>Co:here</span>, and OpenAI, to provide certain features and functionality of our app. By using these services, you agree to be bound by the terms and conditions of these third-party services.</div>
                                                                             <span className={'font-bold text-black '}>Disclaimers</span>
-AccessAI provides the app on an "as is" and "as available" basis, and makes no warranties, express or implied, as to the operation of our app or the information, content, materials, or products included on or accessible through our app. AccessAI does not guarantee that our app will be uninterrupted or error-free, and will not be liable for any interruption or errors.
+RelAI provides the app on an "as is" and "as available" basis, and makes no warranties, express or implied, as to the operation of our app or the information, content, materials, or products included on or accessible through our app. RelAI does not guarantee that our app will be uninterrupted or error-free, and will not be liable for any interruption or errors.
                                                                             <span className={'font-bold text-black '}>Limitation of Liability</span>
 
-AccessAI shall not be liable for any damages arising out of or in connection with your use of our app, including but not limited to indirect, incidental, special, or consequential damages.
+RelAI shall not be liable for any damages arising out of or in connection with your use of our app, including but not limited to indirect, incidental, special, or consequential damages.
 
                                       <br/>
 
                                                                             <span className={'font-bold text-black '}>Changes to These Terms</span>
 
-AccessAI reserves the right to modify these Terms at any time. Your continued use of our app after any changes to these Terms indicates your acceptance of the revised Terms.
+RelAI reserves the right to modify these Terms at any time. Your continued use of our app after any changes to these Terms indicates your acceptance of the revised Terms.
                                       <br/>
                                       <br/>
 
@@ -187,7 +187,7 @@ AccessAI reserves the right to modify these Terms at any time. Your continued us
                                     <a
                                         className="bg-green-600 text-white active:bg-emerald-600 font-bold uppercase text-sm px-6 py-3 rounded shadow hover:shadow-lg outline-none focus:outline-none mr-1 mb-1 ease-linear transition-all duration-150"
                                         type="button"
-                                        href={"sms:+14509906969?&body=Why is the sky blue?"}
+                                        href={"sms:+13149474018?&body=Explain quantum computing as if I born today?"}
                                     >
                                         Message
                                     </a>
